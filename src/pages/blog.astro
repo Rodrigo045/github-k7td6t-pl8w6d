@@ -3,12 +3,17 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 ---
 <BaseLayout title="Homepage">
-  <h1>Blog</h1>
-  <p>Últimas entradas de mi blog</p>
+  <h1>Indice</h1>
+  <p>Radio ideo proporciona varios tipos de programs y emisoras distintas. Aqui encorntrarar muchos tipos de programas diferentes para todo tipo de expectadores<p/>
+  <p>Programas mas populares</p>
+  <li>
+      <a href="/arts">Programas</a>
+    </li>
   <div class="blog-post">
-    <div class="title">Informacion popular.</div>
+    <div class="title">Bienvenido a los programas de radio IDEO.</div>
     <div class="content">
-      <p><img class="logo" src={Astro.resolve('../assets/portada.svg')} /></p>
+    <img class="logo" src={Astro.resolve('../assets/portada.svg')} />
+      <p>Mas informacion en losa apartados superiores<p/>
      
 
     </div>
